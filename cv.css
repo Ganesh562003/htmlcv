@@ -1,0 +1,49 @@
+body{
+   background-color: turquoise;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 500%;
+    max-width: 100%;
+    min-height: 100px;
+    margin: 0px;
+    display: grid;
+    background-color: turquoise;
+    grid-template-columns: 1fr 1fr;
+}
+h1 {
+    text-align: initial;
+    color: black;
+    background-color: aquamarine;
+    padding: 5px;
+}
+h3 {
+    text-align: initial ;
+    color:black;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.head{
+    text-align: center;
+    background-color: turquoise;
+    text-size-adjust: 2px;
+}
+.left{
+    text-align:end ;
+    color:black;
+    background-color: aquamarine;
+    padding: 20px;
+
+}
+.right{
+    text-align: initial ;
+    color:black;
+    background-color:aquamarine;
+    padding: 20px;
+}
+.foot{
+    text-align: center;
+}
+
